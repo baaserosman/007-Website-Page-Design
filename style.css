@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/***************** HEADER  *******************/
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5rem;
+  background-color: #011f26;
+  border-bottom: 3px solid rgb(233, 64, 64);
+  height: 5rem;
+}
+
+.title {
+  display: flex;
+  justify-content: flex-start;
+  color: #f2a71b;
+  font-size: 1.5rem;
+}
+.title span {
+  font-weight: bold;
+  margin-right: 0.5rem;
+  color: rgb(233, 64, 64);
+  text-shadow: 4px;
+  font-family: "Dancing Script", cursive;
+}
+
+.navbar {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.navbar a {
+  padding-right: 1rem;
+  text-decoration: none;
+  color: #f2a71b;
+}
+
+.navbar a.active {
+  color: rgb(233, 64, 64);
+  font-weight: bold;
+}
+
+/***************** MAIN  *******************/
+
+/***************** IMAGE ***************/
+
+.image {
+  background-image: url(./img/porsche.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  height: 60vh;
+}
+
+.text {
+  text-align: center;
+  color: #f2a71b;
+  text-shadow: rgb(233, 64, 64);
+  margin-top: 4rem;
+}
+.text h1 {
+  font-size: 60px;
+}
+
+.text p {
+  margin-top: 3rem;
+  color: white;
+  font-weight: bold;
+}
+
+/*************** IMAGE BOTTOM **************/
+
+.image-bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5rem;
+  background-color: #011f26;
+  height: 5rem;
+}
+
+button {
+  background-color: rgb(233, 64, 64);
+  color: white;
+  padding: 0 15px;
+}
+
+/*************** INFO SECTION **************/
+
+.row {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #a5a692;
+  text-align: center;
+  padding: 2rem;
+}
+
+.col-4 img {
+  height: 4rem;
+  margin-bottom: 1rem;
+}
+
+.col-4 h1 {
+  margin-bottom: 1rem;
+}
+
+/*************** FOOTER **************/
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5rem;
+  background-color: #011f26;
+  border-top: 3px solid rgb(233, 64, 64);
+  height: 5rem;
+}
+
+footer a {
+  font-weight: bold;
+  margin-left: 0.5rem;
+  color: rgb(233, 64, 64);
+  text-shadow: 4px;
+  font-family: "Dancing Script", cursive;
+}
