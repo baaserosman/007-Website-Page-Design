@@ -69,10 +69,11 @@ header {
 }
 .text h1 {
   font-size: 60px;
+  margin-top: 2rem;
 }
 
 .text p {
-  margin-top: 3rem;
+  margin-top: 1rem;
   color: white;
   font-weight: bold;
 }
