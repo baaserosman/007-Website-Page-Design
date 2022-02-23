@@ -204,7 +204,7 @@ footer a {
 
 .main {
   font-family: "Dancing Script", cursive;
-  height: 78vh;
+  height: 75vh;
   text-align: left;
   padding: 2rem;
 }
@@ -242,6 +242,11 @@ footer a {
 
 /*! =============== SERVİCES HTML ==================== */
 
+.main_services {
+  font-family: "Dancing Script", cursive;
+  text-align: left;
+  padding: 2rem;
+}
 .col-8 .container {
   background-color: #bfb78f;
   box-shadow: 0px 5px 5px #011f2683;
@@ -257,4 +262,8 @@ footer a {
   background-color: #011f26;
   color: #f2a71b;
   box-shadow: 0px 5px 5px #011f2683;
+}
+
+.form .btn {
+  background-color: rgb(233, 64, 64);
 }
