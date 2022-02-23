@@ -11,32 +11,35 @@
       integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
       crossorigin="anonymous"
     />
-
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
     <header class="container-fluid">
-      <div class="title"><span>BASCHER</span> Web Design</div>
-      <div class="navbar">
-        <a href="./index.html">HOME</a>
-        <a href="./about.html">ABOUT</a>
-        <a href="#" class="active">SERVICES</a>
+      <div class="row">
+        <div class="title col-sm-12 col-md-6">
+          <span>BASCHER</span> Web Design
+        </div>
+        <div class="navbar col-sm-12 col-md-6">
+          <a href="./index.html">HOME</a>
+          <a href="./about.html">ABOUT</a>
+          <a href="#" class="active">SERVICES</a>
+        </div>
       </div>
     </header>
 
     <main>
-      <div class="image-bottom">
-        <div class="title">Subscribe To Our Newstletter</div>
-        <div class="input-button">
+      <div class="row image-bottom">
+        <div class="title col-12 col-md-6">Subscribe To Our Newstletter</div>
+        <div class="input-button col-12 col-md-6">
           <input type="text" placeholder="Enter Email..." />
           <button type="button">Subscribe</button>
         </div>
       </div>
 
       <div class="row main_services">
-        <div class="col-8">
+        <div class="col-12 col-md-8 services">
           <h4>Services</h4>
-          <div class="container row1">
+          <div class="infos">
             <h5>Web Design</h5>
             <p>
               Lorem, ipsum dolor sit amet consectetur adipisicing elit.
@@ -44,7 +47,7 @@
             </p>
             <p>Pricing:$1.000 - $3.000</p>
           </div>
-          <div class="container row2">
+          <div class="infos">
             <h5>Website Maintenance</h5>
             <p>
               Lorem, ipsum dolor sit amet consectetur adipisicing elit.
@@ -52,7 +55,7 @@
             </p>
             <p>Pricing:$250 per month</p>
           </div>
-          <div class="container row3">
+          <div class="infos">
             <h5>Website Hosting</h5>
             <p>
               Lorem, ipsum dolor sit amet consectetur adipisicing elit.
@@ -61,7 +64,7 @@
             <p>Pricing:$25 per month</p>
           </div>
         </div>
-        <div class="col-4 form">
+        <div class="col-12 col-md-3 form">
           <h5>Get A Quote</h5>
           <form>
             <div class="mb-3">
