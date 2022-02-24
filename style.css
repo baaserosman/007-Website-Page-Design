@@ -256,6 +256,17 @@ footer a {
 }
 
 /*! =============== SERVİCES HTML ==================== */
+.image-services {
+  background-image: url(./img/Screenshot-3.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  height: 40vh;
+}
 
 .main_services {
   display: flex;
@@ -264,7 +275,6 @@ footer a {
   text-align: left;
   padding: 2rem;
   background-color: #a5a692;
-  height: 80vh;
 }
 
 .infos {
